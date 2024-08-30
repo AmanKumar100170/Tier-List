@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --primary-color: #242222;
+    --secondary-color: #333333;
+}
+
+body{
+    background-color: var(--secondary-color);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: auto;
+    height: 80vh;
+    width: 70vw;
+    justify-content:space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.dragged-images{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+}
+
+.external-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+h1{
+    color:beige;
+    font-size: 40px;
+}
+
+.hide{
+    display: none;
+}
+
+img{
+    height: 80px;
+    width: 80px;
+}
+
+.image{
+    height: 80px;
+    width: 80px;
+}
+
+.image-container{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.rank{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rank1{
+    background-color: #FF7F7F;
+}
+
+.rank2{
+    background-color: #FFBF7F;
+}
+
+.rank3{
+    background-color: #FFDF7F;
+}
+
+.rank4{
+    background-color: #FFFF7F;
+}
+
+.rank5{
+    background-color: #BFFF7F;
+}
+
+.tier-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 5px;
+}
+
+.tiers{
+    min-height: 82px;
+    width: 100%;
+    background-color: var(--primary-color);
+    display: flex;
+    flex-wrap: wrap;
+}
